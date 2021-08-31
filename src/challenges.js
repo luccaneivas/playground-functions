@@ -1,6 +1,6 @@
 // Desafio 1
 function compareTrue(a, b) {
-  if (a === true && b === true){
+  if (a === true && b === true) {
     return true;
   } else {
     return false;
@@ -9,12 +9,39 @@ function compareTrue(a, b) {
 
 // Desafio 2
 function calcArea(base, height) {
-  return (base*height)/2;
+  return (base * height) / 2;
 }
 
 // Desafio 3
-function splitSentence() {
-  // seu código aqui
+function splitSentence(string) {
+  let array = [];
+  if (checaEspaco(string) === true) {
+    let palavra = '';
+    for (let i = 0; i < string.length; i += 1) {
+      if (string[i] == ' ') {
+        array.push(palavra);
+        palavra = '';
+      } else if (i == string.length-1) {
+        palavra += string[i];
+        array.push(palavra);
+      } else {
+        palavra += string[i];
+      }
+    }
+  } else {
+    array.push(string);
+  }
+  console.log(array);
+  return array;
+}
+
+function checaEspaco(string) {
+  for (let i = 0; i < string.length; i += 1){
+    if (string[i] === ' ') {
+      return true;
+    }
+  }
+  return false;
 }
 
 // Desafio 4
