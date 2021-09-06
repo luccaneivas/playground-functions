@@ -34,7 +34,6 @@ function splitSentence(string) {
   console.log(array);
   return array;
 }
-
 function checaEspaco(string) {
   for (let i = 0; i < string.length; i += 1){
     if (string[i] === ' ') {
