@@ -144,6 +144,7 @@ function encode(string) {
 
 function decode(string) {
   let returnString = '';
+
   for (let letter of string) {
     switch (letter) {
     case '1':
@@ -166,6 +167,7 @@ function decode(string) {
       break;
     }
   }
+
   return returnString;
 }
 
