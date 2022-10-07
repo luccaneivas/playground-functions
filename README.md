@@ -8,7 +8,8 @@ Repositório do meu segundo projeto feito na Trybe!
 
 ### Enunciados dos Desafios :loudspeaker:
 
-_Obs: Todos os desafios foram feitos pela Trybe e realizados pelo autor deste repositório._
+_Obs: Todos os desafios foram feitos pela Trybe e resolvidos pelo autor deste repositório._
+
 _Obs²: Os desafios possuíam descrições mais detalhadas que aqui foram ocultadas para preservar informações confidenciais._
 
 - 1 - Crie uma função usando o operador &&;
